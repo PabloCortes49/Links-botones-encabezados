@@ -44,3 +44,41 @@ h6,
 .h6 {
   font-size: 16px;
 }
+
+button,
+.btn {
+  display: inline-block;
+  padding: 0 16px;
+  background-color: #de5f25;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #6e6464;
+  line-height: 2;
+  text-transform: uppercase;
+  font-family: 'Helvética', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #151414;
+}
+
+.btn--secondary {
+  background-color: #dadada;
+  color: #1e1e1e;
+}
+.btn--secondary:hover {
+  background-color: white;
+}
+
+
+code {
+  background-color: #e1e1e1;
+  font-weight: 400;
+  padding: 0 8px;
+  font-size: 0.8em;
+  font-family: 'Lato', monospace;
