@@ -17,12 +17,12 @@ h6 {
 }
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: 46px;
 }
 
 h2,
 .h2 {
-  font-size: 38px;
+  font-size: 40px;
 }
 
 h3,
@@ -82,3 +82,90 @@ code {
   padding: 0 8px;
   font-size: 0.8em;
   font-family: 'Lato', monospace;
+}
+
+/* Colors */
+.color-orange {
+  color: #fca311ff;
+}
+.bg-color-orange {
+  background-color: #fca311ff;
+}
+
+.color-orange-3 {
+  color: #e59b34fe;
+}
+.bg-color-orange-3 {
+  background-color: #e59b34fe;
+}
+
+.color-blue {
+  color: #14213dff;
+}
+.bg-color-blue {
+  background-color: #14213dff;
+}
+
+.color-blue-3 {
+  color: #295472;
+}
+.bg-color-blue-3 {
+  background-color: #295472;
+}
+
+.color-black {
+  color: #000000ff;
+}
+.bg-color-black{
+  background-color: #000000ff;
+}
+
+.color-platinum {
+  color: #e5e5e5ff;
+}
+.bg-color-platinum {
+  background-color: #e5e5e5ff;
+}
+
+.color-white {
+  color: #ffffffff;
+}
+.bg-color-white {
+  background-color: #ffffffff;
+}
+
+.pattern-content {
+  max-width: 800px;
+  padding: 16px;
+  margin: 16px auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.pattern-section {
+  margin-bottom: 64px;
+}
+
+.pattern-color {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.pattern-color:before {
+  content: attr(data-color);
+  background-color: rgba(0,0,0,0.2);
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.pattern-title {
+  border-bottom: 1px solid #e1e1e1;
+  opacity: 0.6;
+}
+
+[data-header]:before {
+  content: attr(data-header) ": ";
+}
