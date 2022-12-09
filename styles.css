@@ -169,3 +169,43 @@ code {
 [data-header]:before {
   content: attr(data-header) ": ";
 }
+  
+*{box-sizing:border-box;}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin-right: auto;
+	background-color:rgb(26, 25, 25);
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+  color: #f6f6f6;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+  margin-bottom: 10px;
+  display:inline-block;
+}
+
+form input[type="submit"]{
+	width:50%;
+	padding:8px 16px;
+  margin-left: auto;
+	margin-top:32px;
+	border:1px solid rgb(212, 100, 14);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgb(212, 100, 14);
+} 
